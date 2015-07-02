@@ -9,7 +9,7 @@ class Deck
 
   def initialize
     @trumps = [TheFool.new,TheMagician.new,ThePopess.new,TheEmpress.new,TheEmperor.new,ThePope.new,TheLovers.new,TheChariot.new,Justice.new,TheHermit.new,WheelOfFortune.new,Force.new,TheHangedMan.new,Death.new,Temperance.new,TheDevil.new,TheFallingTower.new,TheStar.new,TheMoon.new,TheSun.new,Judgment.new,TheWorld.new]
-    @swords = []
+    @swords = [AceOfSwords.new,OneOfSwords.new,TwoOfSwords.new,ThreeOfSwords.new,FourOfSwords.new,FiveOfSwords.new,SixOfSwords.new,SevenOfSwords.new,EightOfSwords.new,NineOfSwords.new,TenOfSwords.new,PageOfSwords.new,KnightOfSwords.new,QueenOfSwords.new,KingOfSwords.new]
     @cups = []
     @coins = []
     @wands = []
