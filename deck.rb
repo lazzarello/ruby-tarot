@@ -9,10 +9,14 @@ class Deck
 
   def initialize
     @trumps = [TheFool.new,TheMagician.new,ThePopess.new,TheEmpress.new,TheEmperor.new,ThePope.new,TheLovers.new,TheChariot.new,Justice.new,TheHermit.new,WheelOfFortune.new,Force.new,TheHangedMan.new,Death.new,Temperance.new,TheDevil.new,TheFallingTower.new,TheStar.new,TheMoon.new,TheSun.new,Judgment.new,TheWorld.new]
+
     @swords = [AceOfSwords.new,OneOfSwords.new,TwoOfSwords.new,ThreeOfSwords.new,FourOfSwords.new,FiveOfSwords.new,SixOfSwords.new,SevenOfSwords.new,EightOfSwords.new,NineOfSwords.new,TenOfSwords.new,PageOfSwords.new,KnightOfSwords.new,QueenOfSwords.new,KingOfSwords.new]
-    @cups = []
-    @coins = []
-    @wands = []
+
+    @wands = [AceOfWands.new,OneOfWands.new,TwoOfWands.new,ThreeOfWands.new,FourOfWands.new,FiveOfWands.new,SixOfWands.new,SevenOfWands.new,EightOfWands.new,NineOfWands.new,TenOfWands.new,PageOfWands.new,KnightOfWands.new,QueenOfWands.new,KingOfWands.new]
+
+    @coins = [AceOfCoins.new,OneOfCoins.new,TwoOfCoins.new,ThreeOfCoins.new,FourOfCoins.new,FiveOfCoins.new,SixOfCoins.new,SevenOfCoins.new,EightOfCoins.new,NineOfCoins.new,TenOfCoins.new,PageOfCoins.new,KnightOfCoins.new,QueenOfCoins.new,KingOfCoins.new]
+
+    @cups = [AceOfCups.new,OneOfCups.new,TwoOfCups.new,ThreeOfCups.new,FourOfCups.new,FiveOfCups.new,SixOfCups.new,SevenOfCups.new,EightOfCups.new,NineOfCups.new,TenOfCups.new,PageOfCups.new,KnightOfCups.new,QueenOfCups.new,KingOfCups.new]
   end
 
   def pick(n)
