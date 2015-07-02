@@ -41,13 +41,15 @@ class Deck
     end
   end
 
+  def shuffle(rnjeezus=false)
+    @all.shuffle!
+  end
+
+  private
+
   def direction(cards)
     # is this really the best way to flip a coin?
     d = cards.collect { |i| rand(2) }
     return d
-  end
-
-  def shuffle(rnjeezus=false)
-    @all.shuffle!
   end
 end
