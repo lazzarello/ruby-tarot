@@ -29,37 +29,6 @@ EOF
   end
 end
 
-class OneOfCoins
-  attr_reader :name, :suit, :number
-
-  def initialize
-    @name = self.class
-    @suit = "Coins"
-    @number = 1
-  end
-
-  def description
-    desc = <<EOF
-Lorem ipsum
-EOF
-    return puts desc
-  end
-
-  def meaning
-    mean = <<EOF
-Lorem ipsum
-EOF
-    return puts mean
-  end
-
-  def reversed
-    mean = <<EOF
-Lorem ipsum
-EOF
-    return puts mean
-  end
-end
-
 class TwoOfCoins
   attr_reader :name, :suit, :number
 
