@@ -1,4 +1,8 @@
 require './trumps'
+require './swords'
+require './wands'
+require './coins'
+require './cups'
 
 class Deck
   attr_reader :trumps
