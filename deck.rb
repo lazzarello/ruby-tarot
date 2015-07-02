@@ -20,14 +20,14 @@ class Deck
     
     @all = []
     @all << @trumps << @swords << @wands << @coins << @cups
-    @all.flatten!
+    @all.flatten!.shuffle!
   end
 
-  def pick(n)
+  def pick(n,suits=@all)
     cards = []
     n.times do |i|
       # delete a random card from the array, returning the deleted object and inserting it into the cards array.
-      cards << @all.delete_at(rand(@all.size))
+      cards << suits.delete_at(rand(suits.size))
     end 
     dir = direction(cards)
     dir.each_with_index do |n,i|
