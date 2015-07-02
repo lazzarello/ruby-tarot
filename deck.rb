@@ -5,7 +5,7 @@ require './coins'
 require './cups'
 
 class Deck
-  attr_reader :trumps
+  attr_reader :trumps, :swords, :wands, :coins, :cups, :all
 
   def initialize
     @trumps = [TheFool.new,TheMagician.new,ThePopess.new,TheEmpress.new,TheEmperor.new,ThePope.new,TheLovers.new,TheChariot.new,Justice.new,TheHermit.new,WheelOfFortune.new,Force.new,TheHangedMan.new,Death.new,Temperance.new,TheDevil.new,TheFallingTower.new,TheStar.new,TheMoon.new,TheSun.new,Judgment.new,TheWorld.new]
@@ -17,6 +17,10 @@ class Deck
     @coins = [AceOfCoins.new,OneOfCoins.new,TwoOfCoins.new,ThreeOfCoins.new,FourOfCoins.new,FiveOfCoins.new,SixOfCoins.new,SevenOfCoins.new,EightOfCoins.new,NineOfCoins.new,TenOfCoins.new,PageOfCoins.new,KnightOfCoins.new,QueenOfCoins.new,KingOfCoins.new]
 
     @cups = [AceOfCups.new,OneOfCups.new,TwoOfCups.new,ThreeOfCups.new,FourOfCups.new,FiveOfCups.new,SixOfCups.new,SevenOfCups.new,EightOfCups.new,NineOfCups.new,TenOfCups.new,PageOfCups.new,KnightOfCups.new,QueenOfCups.new,KingOfCups.new]
+    
+    @all = []
+    @all << @trumps << @swords << @wands << @coins << @cups
+    @all.flatten!
   end
 
   def pick(n)
