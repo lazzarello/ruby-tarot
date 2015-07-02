@@ -14,7 +14,8 @@ class Deck
   def pick(n)
     cards = []
     n.times do |i|
-      cards << @trumps[rand(@trumps.size)]
+      # delete a random trump card from the array, returning the deleted object and inserting it into the cards array.
+      cards << @trumps.delete_at(rand(@trumps.size))
     end 
     dir = direction(cards)
     dir.each_with_index do |n,i|
