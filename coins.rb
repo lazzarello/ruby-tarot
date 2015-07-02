@@ -9,21 +9,23 @@ class AceOfCoins
 
   def description
     desc = <<EOF
-Lorem ipsum
+A hand comes forth from a cloud. This time it holds a golden coin.
 EOF
     return puts desc
   end
 
   def meaning
     mean = <<EOF
-Lorem ipsum
+The begining of wealth and material gain. Gold, prosperity, combined with
+pleasure and beauty.
 EOF
     return puts mean
   end
 
   def reversed
     mean = <<EOF
-Lorem ipsum
+Miserliness, greed. A false start. Comfortable material conditions, which may
+not be to the advantage of the Querent.
 EOF
     return puts mean
   end
@@ -40,21 +42,26 @@ class TwoOfCoins
 
   def description
     desc = <<EOF
-Lorem ipsum
+A young man in gay costume dances while he balances two coins held together by
+a cord shaped like a figure 8 on its side, the cosmic lemniscate of eternal
+life. The ships behind him are tossed on the high seas.
 EOF
     return puts desc
   end
 
   def meaning
     mean = <<EOF
-Lorem ipsum
+The ability to juggle two situations at one time. Lightheartedness, gaiety.
+Recreation. Harmony in the midst of change. New projects may be difficult to
+launch. News and messages in writing. A nature industrious yet unreliable,
+elated and then melancholic.
 EOF
     return puts mean
   end
 
   def reversed
     mean = <<EOF
-Lorem ipsum
+Enforced gaiety; inability to handle several situations at once. Simulated enjoyment.
 EOF
     return puts mean
   end
@@ -71,21 +78,24 @@ class ThreeOfCoins
 
   def description
     desc = <<EOF
-Lorem ipsum
+A nun and a monk watch a sculptor putting the finishing touches on a carving he
+is doing for the church. Three coins adorn the archway.
 EOF
     return puts desc
   end
 
   def meaning
     mean = <<EOF
-Lorem ipsum
+Material increase. The master craftsman, the skilled artist. Gain in a
+commercial transaction. This is the card for members of the Masons and other
+groups and societies.
 EOF
     return puts mean
   end
 
   def reversed
     mean = <<EOF
-Lorem ipsum
+Lack of skill. Ignorance. Selfishness. Commonplace ideals; preoccupation with gain.
 EOF
     return puts mean
   end
@@ -102,21 +112,24 @@ class FourOfCoins
 
   def description
     desc = <<EOF
-Lorem ipsum
+Here is the miser clinging to his gold. He is hanging on tightly to his
+material possessions.
 EOF
     return puts desc
   end
 
   def meaning
     mean = <<EOF
-Lorem ipsum
+Assured material gain, success. Earthly power, but leading to nothing beyond
+it. Gifts, legacy, inheritance. May indicate a miserly, ungenerous character.
 EOF
     return puts mean
   end
 
   def reversed
     mean = <<EOF
-Lorem ipsum
+Prejudice, covetousness, suspicion. Hindrances. Setbacks in material ambitions.
+The spendthrift, too free with money. Chance of loss of earthly possessions.
 EOF
     return puts mean
   end
@@ -133,21 +146,25 @@ class FiveOfCoins
 
   def description
     desc = <<EOF
-Lorem ipsum
+A destitute man and woman pass under a lighted window. There is snow on the
+ground, and they appear to be in distress.
 EOF
     return puts desc
   end
 
   def meaning
     mean = <<EOF
-Lorem ipsum
+Unemployment, destitution. Loss of home. Loneliness. Lovers unable to find a
+meeting place. Affinities discovered through similar troubles. Dark night of
+the soul.
 EOF
     return puts mean
   end
 
   def reversed
     mean = <<EOF
-Lorem ipsum
+Money regained after severe toil. new employment, but this may not be
+permanent. Charity. A new interest in spiritual matters.
 EOF
     return puts mean
   end
@@ -164,21 +181,24 @@ class SixOfCoins
 
   def description
     desc = <<EOF
-Lorem ipsum
+A good man, probably a merchant, gives money to the needy with balance and
+judgment. From a good heart, he shares with other.
 EOF
     return puts desc
   end
 
   def meaning
     mean = <<EOF
-Lorem ipsum
+Alms dispensed with justice; gifts, inheritance. Gain in material undertaking.
+Others will share with you justly. You will receive what you deserve.
 EOF
     return puts mean
   end
 
   def reversed
     mean = <<EOF
-Lorem ipsum
+Purse-proud. Jealout. Bad debts. Present prosperity threatened. Gifts given,
+but as a bribe.
 EOF
     return puts mean
   end
@@ -195,21 +215,24 @@ class SevenOfCoins
 
   def description
     desc = <<EOF
-Lorem ipsum
+A strong young farmer leans on his hoe and gazes at the coins growing on the
+vine at his right. Will he receive the harvest from his work?
 EOF
     return puts desc
   end
 
   def meaning
     mean = <<EOF
-Lorem ipsum
+Pause during the development of an enterprise. Unprofitable speculations. Loss
+of promising fortune. Disappointment. Anxiety about a loan. Success not
+attained.
 EOF
     return puts mean
   end
 
   def reversed
     mean = <<EOF
-Lorem ipsum
+Impatience. Little gain after much work. Again, anxiety about a loan.
 EOF
     return puts mean
   end
@@ -226,21 +249,25 @@ class EightOfCoins
 
   def description
     desc = <<EOF
-Lorem ipsum
+The sculptor's apprentice is carving out a coin; he exhibits other coins on the
+post beside him.
 EOF
     return puts desc
   end
 
   def meaning
     mean = <<EOF
-Lorem ipsum
+learning a trade of prefession. The beginning of a profitable undertaking.
+Employment or commission to come. Skill in material affairs, handiwork, and the
+arts -- sometimes remaining only in the apprenticeship stage.
 EOF
     return puts mean
   end
 
   def reversed
     mean = <<EOF
-Lorem ipsum
+There is danger of failing in one's ambitions. False vanity, intrigue, and
+sharp practice. Skill turned to cunning, like that of a counterfeiter.
 EOF
     return puts mean
   end
@@ -257,21 +284,25 @@ class NineOfCoins
 
   def description
     desc = <<EOF
-Lorem ipsum
+A mature, well-dressed woman with a tame bird upon her wrist stands in her
+vineyard; there is a manor house in the background.
 EOF
     return puts desc
   end
 
   def meaning
     mean = <<EOF
-Lorem ipsum
+Solitary enjoyment of the good things of life. Inheritance. Wisdom where one's
+own interests lie. A person and a green thumb. Material well-being. Caution: be
+prudent. Great love of gardens and home.
 EOF
     return puts mean
   end
 
   def reversed
     mean = <<EOF
-Lorem ipsum
+Danger from thieves, cancelled project. Possible loss of home or friendship.
+Move with caution.
 EOF
     return puts mean
   end
@@ -288,21 +319,24 @@ class TenOfCoins
 
   def description
     desc = <<EOF
-Lorem ipsum
+A patriarch rests at east before an archway on which is inscribed his coat of arms.
 EOF
     return puts desc
   end
 
   def meaning
     mean = <<EOF
-Lorem ipsum
+Riches, inheritance. Attention to family matters, interest in one's ancestral
+tree. A problem concerning a will or pension. May refer to the acquiting of a
+house or a business property.
 EOF
     return puts mean
   end
 
   def reversed
     mean = <<EOF
-Lorem ipsum
+Family misfortune; old people may become a burden. Loss of inheritance. Caution
+against getting involved in projects that are a poor risk.
 EOF
     return puts mean
   end
@@ -319,21 +353,21 @@ class PageOfCoins
 
   def description
     desc = <<EOF
-Lorem ipsum
+A prince or princess stands in a field and gazes at the coin that seems to float in the air before him. Although the coins are the cards of money and earthly things, this Page is still a student, careful and diligent. Choose this card for a boy or girl with black hair and eyes and a swarthy complexion.
 EOF
     return puts desc
   end
 
   def meaning
     mean = <<EOF
-Lorem ipsum
+Respect for learning and new ideas. A scholar. A typical introvert. Can also mean application; reflection. Good management, carefulness. The bringer of good news and messages about money.
 EOF
     return puts mean
   end
 
   def reversed
     mean = <<EOF
-Lorem ipsum
+Dissipation and excess. Too great pleasure in the material things of life. Wastefulness, luxury. News of the loss of money or worldy goods.
 EOF
     return puts mean
   end
@@ -350,21 +384,21 @@ class KnightOfCoins
 
   def description
     desc = <<EOF
-Lorem ipsum
+This knight rides a heavy workhorse through a freshly plowed field. He wears a gree sprig on his helmet, and there is also a sprig in the horse's bridle. The knight is a materialist; he looks placidly at the symbol he carries. Choose this card for a black-haired, black-with black hair, black eyes, and a swarthy skin.
 EOF
     return puts desc
   end
 
   def meaning
     mean = <<EOF
-Lorem ipsum
+A man of upright nature who accepts responsibility. He is laborious and patient. The card can also mean utility, serviceableness, trustworthiness. Or the coming or going of an important matter connected with money.
 EOF
     return puts mean
   end
 
   def reversed
     mean = <<EOF
-Lorem ipsum
+A static nature that is unprogressive, dull, timid, idle, or careless. It indicates stagnation in one's affairs.
 EOF
     return puts mean
   end
@@ -381,21 +415,26 @@ class QueenOfCoins
 
   def description
     desc = <<EOF
-Lorem ipsum
+Here is the Queen of Fertility seated on a throne with goat-head arms, ripe
+fruit, and a cupid at the back.
 EOF
     return puts desc
   end
 
   def meaning
     mean = <<EOF
-Lorem ipsum
+This is a woman who is the Earth Mother, generous with her gifts. She is rich
+but charitable, a trule noble soul. A creator on the physical plane. Other
+meanings are opulence; security. Trust of those around one. At times melancholy
+or moody. Good use of practical talents.
 EOF
     return puts mean
   end
 
   def reversed
     mean = <<EOF
-Lorem ipsum
+Mistrust, suspicion. Duties neglected. Dependence on others. Changeable.
+Fearful of failure.
 EOF
     return puts mean
   end
@@ -412,21 +451,26 @@ class KingOfCoins
 
   def description
     desc = <<EOF
-Lorem ipsum
+The kind holds a scepter to represent his power. In the other hand, he holds a coin.
 EOF
     return puts desc
   end
 
   def meaning
     mean = <<EOF
-Lorem ipsum
+This is a chief of industry, a banker, or owner of large estates. He is a
+reliable married man and a mathematician with great financial gifts. The card
+can also betoken a steady temperament, slow to anger; success where money
+matters are concerned and reliability.
 EOF
     return puts mean
   end
 
   def reversed
     mean = <<EOF
-Lorem ipsum
+Stupidity. Perverse use of talents. Thriftless. Easy to bribe. Vice. Caution
+against association with gamblers and speculators. If crossed, he could be a
+dangerous man.
 EOF
     return puts mean
   end
