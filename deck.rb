@@ -22,7 +22,7 @@ class Deck
         puts cards[i].name
         cards[i].meaning
       else
-        puts cards[i].name
+        puts "#{cards[i].name} reversed"
         cards[i].reversed
       end
     end
