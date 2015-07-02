@@ -431,7 +431,7 @@ EOF
 
   def reversed
     mean = <<EOF
-Unreliability. Narrow-mindedness. Gossip. Deceit. Malice. A woman of atrifice and prudery.
+Unreliability. Narrow-mindedness. Gossip. Deceit. Malice. A woman of artifice and prudery.
 EOF
     return puts mean
   end
