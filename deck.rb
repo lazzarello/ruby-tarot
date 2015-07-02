@@ -27,7 +27,7 @@ class Deck
     cards = []
     n.times do |i|
       # delete a random trump card from the array, returning the deleted object and inserting it into the cards array.
-      cards << @trumps.delete_at(rand(@trumps.size))
+      cards << @all.delete_at(rand(@all.size))
     end 
     dir = direction(cards)
     dir.each_with_index do |n,i|
@@ -42,6 +42,7 @@ class Deck
   end
 
   def direction(cards)
+    # is this really the best way to flip a coin?
     d = cards.collect { |i| rand(2) }
     return d
   end
