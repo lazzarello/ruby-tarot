@@ -23,7 +23,8 @@ class Deck
     @all.flatten!.shuffle!
   end
 
-  def pick(n,suits=@all)
+  def pick( n, suits = @all )
+    n = n.to_i
     cards = []
     n.times do |i|
       # delete a random card from the array, returning the deleted object and inserting it into the cards array.
