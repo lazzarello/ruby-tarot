@@ -47,6 +47,30 @@ class Deck
     @all.shuffle!
   end
 
+  def tree_of_life(cards)
+    if cards.size == 10
+      spread = { "Spiritual" => nil, 
+                 "Responsibilities" => nil, 
+                 "Difficulties" => nil, 
+                 "Helpful matters" => nil, 
+                 "Opposing matters" => nil, 
+                 "Achievements" => nil,
+                 "Emotional relationships" => nil, 
+                 "Communication and career" => nil, 
+                 "Unconscious foundation" => nil, 
+                 "Home and family" => nil }
+
+      10.times do |i|
+        spread[i] = cards[i].meaning
+      end
+      return spread
+    else
+      raise "You must have 10 cards for the tree of life spread"
+    end
+
+
+  end
+
   private
 
   def direction(cards)
