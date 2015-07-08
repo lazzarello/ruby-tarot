@@ -40,6 +40,7 @@ class Deck
         cards[i].reversed
       end
     end
+    return cards
   end
 
   def shuffle(rnjeezus=false)
