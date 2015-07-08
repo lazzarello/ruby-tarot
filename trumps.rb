@@ -8,10 +8,10 @@ class TheFool
   end
 
   def description
-    desc = <<EOF
+    desc = """
 Here we have a youth about to step off the edge of a precipice. He symbolized
 the Lifepower before it enters into manifestation.
-EOF
+"""
     return puts desc
   end
 
